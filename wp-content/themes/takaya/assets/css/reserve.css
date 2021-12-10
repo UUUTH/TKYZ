@@ -1,0 +1,42 @@
+/*
+Theme Name: たかや鮨
+
+COMMON
+*/
+
+/* ------------------------------
+
+	COMMON
+
+------------------------------ */
+.reserve .content {
+	width: 1000px;
+    margin: 0 auto;
+	margin-top: 45px;
+    text-align: center;
+	color: #C94B3A;
+}
+
+.reserve .content .ttl,
+.reserve .content .tel {
+	font-weight: bold;
+}
+
+.reserve .content .ttl {
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.reserve .content .tel {
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+
+.reserve .content .shop {
+	font-size: 21px;
+}
+
+@media screen and (max-width: 896px) {
+
+    
+}

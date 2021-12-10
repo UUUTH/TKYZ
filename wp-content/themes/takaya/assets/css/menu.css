@@ -1,0 +1,137 @@
+/*
+Theme Name: たかや鮨
+
+COMMON
+*/
+
+/* ------------------------------
+
+	pageLinkBox
+
+------------------------------ */
+main {
+	background-image: url(/wp-content/themes/takaya/assets/img/menu/bg_menu001.png);
+	background-repeat: no-repeat;
+	background-position: center 270px;
+	margin-bottom: -200px;
+}
+.pageLinkBox {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+	margin-bottom: 120px;
+}
+.pageLinkBox li {
+	padding: 10px 50px;
+}
+
+.comment {
+    text-align: center;
+}
+.comment .ttl {
+    margin-bottom: 120px;
+    font-size: 35px;
+}
+.comment .link .btn {
+    padding: 10px 20px;
+    font-size: 30px;
+    border: solid 4px #C94B3A;
+}
+
+@media screen and (max-width: 896px) {
+
+    
+}
+
+/* ------------------------------
+
+	bgYellow
+
+------------------------------ */
+.bgYellow .icon.left {
+	top: 250px;
+    left: -110px;
+}
+.bgYellow .icon.right {
+    top: 280px;
+    right: -140px;
+}
+.bgYellow .icon.bottom {
+	bottom: 350px;
+    left: 100px;
+}
+
+/* ------------------------------
+
+	oshinagaki
+
+------------------------------ */
+.omakase {
+	width: 664px;
+    margin: 0 auto;
+    text-align: left;
+	margin-bottom: 140px;
+}
+.omakase .inner {
+    width: 436px;
+    justify-content: space-between;
+    align-items: flex-end;
+	margin-bottom: 20px;
+}
+.omakase.menuTxt {
+	margin-bottom: 60px;
+}
+.sushimenu {
+	margin-bottom: 100px;
+}
+.sushimenu .left {
+    width: 40%;
+}
+.sushitwo.flex {
+	margin-bottom: 30px;
+}
+
+.sushinigiri  {
+	margin-bottom: 80px;
+}
+.sushinigiri .left,
+.sushinigiri .right {
+	width: 50%;
+}
+.sushinigiri .left {
+	flex-wrap: wrap;
+    padding-right: 30px;
+}
+
+.ippinBox {
+	flex-wrap: wrap;
+}
+.ippinBox > div {
+	margin-bottom: 40px;
+}
+.ippinBox .menu {
+    width: 48%;
+    line-height: 1.4;
+}
+
+.udonBox {
+    margin-bottom: 160px;
+}
+.udonBox .menu {
+    width: 320px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.drinkBox .menu {
+	width: 320px;
+    line-height: 1.4;
+}
+
+.enkaiBox {
+    width: 900px;
+    margin: 0 auto;
+}
+.bgYellow .enkaiBox .pagettl {
+	width: auto;
+}

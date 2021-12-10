@@ -1,0 +1,30 @@
+/*
+Theme Name: たかや鮨
+
+COMMON
+*/
+
+/* ------------------------------
+
+	COMMON
+
+------------------------------ */
+.slider {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: -70px;
+    margin-bottom: 120px;
+}
+#a-pagetop .metaslider .flex-control-nav li a {
+    margin: 0 20px;
+}
+#a-pagetop .metaslider .flex-control-nav {
+    bottom: -60px;
+}
+@media screen and (max-width: 1279px) {
+    
+    .slider {
+        width: 100%;
+    }
+    
+}

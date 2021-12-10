@@ -1,0 +1,66 @@
+/*
+Theme Name: たかや鮨
+
+COMMON
+*/
+
+/* ------------------------------
+
+	COMMON
+
+------------------------------ */
+main {
+    margin-bottom: -60px;
+}
+.about section.ttl {
+    display: none;;
+}
+.about h3.mainTtl {
+    position: relative;
+    width: 1280px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: -120px;
+    background-image: url(/wp-content/themes/takaya/assets/img/about/img_main.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.about h3.mainTtl .inner {
+    position: absolute;
+    top: 160px;
+    left: 210px;
+    width: 335px;
+    padding: 10px 20px;
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.5);
+}
+.about h3.mainTtl .inner span {
+    line-height: 1;
+}
+.about h3.mainTtl .inner span::before {
+    display: inline-block;
+    vertical-align: bottom;
+    content: url(/wp-content/themes/takaya/assets/img/about/icon_main.png);
+}
+
+.icon {
+    position: absolute;
+}
+.icon.left {
+    top: 100px;
+    left: 110px;
+}
+.icon.right {
+    top: 80px;
+    right: 120px;
+}
+
+
+
+
+
+
+

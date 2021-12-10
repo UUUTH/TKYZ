@@ -1,0 +1,105 @@
+/*
+Theme Name: たかや鮨
+
+COMMON
+*/
+
+/* ------------------------------
+
+	COMMON
+
+------------------------------ */
+.commitment section.ttl {
+    display: none;;
+}
+.commitment h3.mainTtl {
+    position: relative;
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: -120px;
+    margin-bottom: -80px;
+    background-image: url(/wp-content/themes/takaya/assets/img/commitment/img_main.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.commitment h3.mainTtl .inner {
+    position: absolute;
+    top: 290px;
+    right: 60px;
+    width: 387px;
+    padding: 10px 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.7);
+}
+.commitment h3.mainTtl .inner span {
+    line-height: 1;
+}
+.commitment h3.mainTtl .inner span::before {
+    display: inline-block;
+    vertical-align: bottom;
+    content: url(/wp-content/themes/takaya/assets/img/commitment/icon_main.png);
+}
+
+
+.content .icon.left {
+    top: 80px;
+    left: -130px;
+}
+.content .icon.right {
+    top: 170px;
+    right: -130px;
+}
+.contenBox {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: left;
+    align-items: center;
+}
+.contenBox .txt {
+    width: 373px;
+}
+.contenBox .txt .ttl {
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.contenBox .txt .ttl span {
+    background-color: rgba(255,255,255,1);
+}
+
+.chomi {
+    position: relative;
+}
+.chomi .icon {
+    position: absolute;
+}
+.chomi .icon.left {
+    top: 0;
+    left: -120px;
+}
+.chomi .icon.right {
+    top: 410px;
+    right: -120px;
+}
+.chomiBox {
+    width: 800px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.chomiBox > div {
+    width: 50%;
+    padding: 0 10px 80px;
+}
+.chomiBox .img {
+    margin-bottom: 40px;
+}
+
+
+
+
+

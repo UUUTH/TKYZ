@@ -1,0 +1,47 @@
+/*
+Theme Name: たかや鮨
+
+COMMON
+*/
+
+/* ------------------------------
+
+	COMMON
+
+------------------------------ */
+main {
+    margin-bottom: -100px;
+}
+.takeout {
+	background-image: url(/wp-content/themes/takaya/assets/img/takeout/bg_takeout.png);
+    background-repeat: no-repeat;
+    background-position: center 290px;
+}
+.takeout section.ttl {
+    margin-bottom: 100px;
+}
+
+.pageLinkBox {
+    justify-content: center;
+    margin-bottom: 240px;
+}
+.pageLinkBox li {
+    padding: 0 20px;
+}
+
+/* ------------------------------
+
+	oshinagaki
+
+------------------------------ */
+.omakase .inner {
+    align-items: flex-start;
+}
+.takeout .bgYellow .icon.right {
+    top: 30px;
+    right: -130px;
+}
+.takeout .bgYellow .icon.left {
+    top: 350px;
+    left: -130px;
+}
